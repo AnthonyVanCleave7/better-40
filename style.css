@@ -1,0 +1,26 @@
+.header{
+    background-color: powderblue;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+
+.img{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+.text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: rgb(79, 8, 160);
+}
